@@ -1,42 +1,73 @@
-<html>
+< html>
+<html lang="en">
 <head>
-    <style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MONK</title>
+  <style>
     body {
-        background-color: #ffdddd; /* Light red background color for the entire page */
-        color: #ff0000; /* Red text color */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-    
-    h1, h2, h3 {
-        color: #ff0000; /* Red heading text color */
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
     }
-    
-    /* Style links with red color */
-    a {
-        color: #ff0000;
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+      padding: 0.5rem;
     }
-    
-    /* Change link color on hover */
-    a:hover {
-        color: #990000; /* Darker red on hover */
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
     }
-    
-    /* Style buttons with red background and white text */
-    button {
-        background-color: #ff0000;
-        color: #ffffff;
+
+    .hero {
+      background-image: url('monk.jpg');
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 4rem;
     }
-    </style>
-    
-<title>
-MONK
-</title>
+
+    .content {
+      padding: 2rem;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-<h1>
-BUDDHA IS A MIRACLE
-</h1>
-<image width="80%" src=buddha.jpg>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lNdgT6VCuu0?si=YN8QNdIKkuq7_kgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
- <a href="buddhism.html">click here to know more about buddhism</a>
+
+  <header>
+    <h1>Your Website</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Welcome to Your Website</h2>
+    <p>This is a brief description of your website.</p>
+    <button onclick="alert('Hello!')">Click me</button>
+  </div>
+
+  <div class="content">
+    <h2>Our Services</h2>
+    <p>Here, you can provide information about your services.</p>
+  </div>
+
 </body>
-</html> 
+</html>
